@@ -403,4 +403,19 @@ font-size:54px;
 
 }
 
+}.petal{
+position:fixed;
+top:-60px;
+pointer-events:none;
+z-index:9999;
+animation:fall linear forwards;
+}
+
+@keyframes fall{
+0%{
+transform:translateY(-50px) rotate(0deg);
+}
+100%{
+transform:translateY(110vh) translateX(120px) rotate(360deg);
+}
 }
